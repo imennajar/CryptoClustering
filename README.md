@@ -1,14 +1,14 @@
 # CryptoClustering
 
-The cryptocurrency is a digital currency, which is an alternative form of payment created using encryption algorithms.In this challenge, we will use learnhow to use the unsupervised machine learning to make prediction about cryptocurrency.
+Cryptocurrency is a digital currency, which is an alternative form of payment created using encryption algorithms. In this challenge, we will learn how to use unsupervised machine learning to make predictions about cryptocurrency.
 
 ## What we will learn from this project:
 
 - How to find the Best Value for k
 
-- How to create clusters  with K-means
+- How to create clusters with K-means
 
-- How to optimize Clusters with Principal Component Analysis
+- How to optimize clusters with Principal Component Analysis
 
 ## Instructions: 
 
@@ -52,11 +52,11 @@ The cryptocurrency is a digital currency, which is an alternative form of paymen
 
 ### Cluster Cryptocurrencies with K-means Using the PCA Data
 
-- Cluster the cryptocurrencies for the best value for k on the PCA data:
-  
+- Cluster the cryptocurrencies for the best value for k on the PCA data.
+    
 - Create a scatter plot using hvPlot.
   
-- Identify the impact of using fewer features to cluster the data using K-Meas.
+- Identify the impact of using fewer features to cluster the data using K-Means.
  
  ## Program:
  
@@ -84,7 +84,7 @@ def compute_inertia_values(k_values, data):
     """
     Compute inertia values for K-Means clustering.
 
-    Inputs:
+    Input:
         k_values (list): A list of integers representing the number of clusters to evaluate.
         data (DataFrame): The data to be clustered.
 
