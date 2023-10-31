@@ -52,11 +52,11 @@ The cryptocurrency is a digital currency, which is an alternative form of paymen
 
   ### Cluster Cryptocurrencies with K-means Using the PCA Data
 
-  - Cluster the cryptocurrencies for the best value for k on the PCA data:
+- Cluster the cryptocurrencies for the best value for k on the PCA data:
   
-  - Create a scatter plot using hvPlot.
+- Create a scatter plot using hvPlot.
   
-  -  Identify the impact of using fewer features to cluster the data using K-Meas.
+- Identify the impact of using fewer features to cluster the data using K-Meas.
  
  ## Program:
  
