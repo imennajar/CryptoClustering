@@ -117,11 +117,11 @@ def elbow(k_values, inertia_values):
     """
     Create a DataFrame for plotting the Elbow curve.
 
-    Inputs:
+    Input:
         k_values (list): A list of integers representing the number of clusters to evaluate.
         inertia_values (list): A list of inertia values corresponding to each value of k.
 
-    Outputs:
+    Output:
         DataFrame: A DataFrame containing the data for plotting the Elbow curve.
     """
 
@@ -142,12 +142,12 @@ def cluster_data_with_kmeans(model, data, cluster_col_name):
     """
     Cluster data using K-Means.
 
-    Inputs:
+    Input:
         model (object): The K-Means model to be used for clustering.
         data (DataFrame): The data to be clustered.
         cluster_col_name (string): The name of the column to store cluster labels.
 
-    Outputs:
+    Output:
         DataFrame: A copy of the input data with an additional column for cluster labels.
         kmeans_predictions: An array of cluster labels for the data.
     """
@@ -171,7 +171,7 @@ def generate_scatter_plot(data, x_col, y_col, clusters, hover_cols, title):
     """
     Generate a scatter plot for the given data.
 
-    Inputs:
+    Input:
         data (DataFrame): The data to be plotted.
         x_col (string): The name of the column to use for the x-axis.
         y_col (string): The name of the column to use for the y-axis.
@@ -179,7 +179,7 @@ def generate_scatter_plot(data, x_col, y_col, clusters, hover_cols, title):
         hover_cols (list of strings): The columns to display in the hover tooltip.
         title (string): The title of the scatter plot.
 
-    Outputs:
+    Output:
         scatter_plot: A scatter plot of the data.
     """
     # Plot a scatter
