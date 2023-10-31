@@ -50,7 +50,7 @@ The cryptocurrency is a digital currency, which is an alternative form of paymen
 
 - Identify the best value for k when using the PCA data.
 
-  ### Cluster Cryptocurrencies with K-means Using the PCA Data
+### Cluster Cryptocurrencies with K-means Using the PCA Data
 
 - Cluster the cryptocurrencies for the best value for k on the PCA data:
   
