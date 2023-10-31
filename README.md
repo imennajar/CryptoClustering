@@ -196,6 +196,6 @@ def generate_scatter_plot(data, x_col, y_col, clusters, hover_cols, title):
     return scatter_plot
 ```
 ### Plots:
-<img src='elbow_plot.png' style ='width:700px;height:500px'/>
+<img src='elbow_plot.png' style ='width:900px;height:400px'/>
 
-<img src='cluster_plot.png' style ='width:700px;height:500px'/>
+<img src='cluster_plot.png' style ='width:900px;height:400px'/>
