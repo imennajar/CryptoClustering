@@ -73,6 +73,7 @@ The cryptocurrency is a digital currency, which is an alternative form of paymen
 - sklearn: is a machine learning library for Python. 
 
 ### Code:
+
 #### Functions Defined
 
 ##### Compute inertia values for K-Means clustering
@@ -194,6 +195,6 @@ def generate_scatter_plot(data, x_col, y_col, clusters, hover_cols, title):
     # Return the plot
     return scatter_plot
 ```
-
-
+### Plots:
+<img src='lin1.png' style ='width:700px;height:300px'/>
 
